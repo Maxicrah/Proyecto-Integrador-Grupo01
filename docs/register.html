@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #000000;
+        }
+
+        .container {
+            border-radius: 15px;
+        }
+
+        form {
+            border-radius: 15px;
+        }
+
+        input.form-control:focus {
+            outline: none;
+            box-shadow: 0 0 10px #FE5401;
+        }
+        .button {
+            background-color: #FE5401;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container mt-5" style="background-color: #FFE600; padding: 15px;">
+        <form class="bg-white p-5">
+            <h2 class="text-center mb-4">Formulario de Registro</h2>
+            <div class="row">
+                <div class="col-12 form-group">
+                    <label for="inputFirstName">Nombre</label>
+                    <input type="text" class="form-control" id="inputFirstName">
+                </div>
+                <div class="col-12 form-group mt-3">
+                    <label for="inputLastName">Apellido</label>
+                    <input type="text" class="form-control" id="inputLastName">
+                </div>
+                <div class="col-12 form-group mt-3">
+                    <label for="inputEmail">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="inputEmail">
+                </div>
+                <div class="col-12 form-group mt-3">
+                    <label for="inputEmail">Confirmar Correo Electrónico</label>
+                    <input type="email" class="form-control" id="inputEmail">
+                </div>
+                <div class="col-12 form-group mt-3">
+                    <label for="inputPassword">Contraseña</label>
+                    <input type="password" class="form-control" id="inputPassword">
+                </div>
+                <div class="col-12 form-group mt-3">
+                    <label for="inputPassword">Confirmar Contraseña</label>
+                    <input type="password" class="form-control" id="inputPassword">
+                </div>
+                <div class="col-12 d-grid gap-2 mt-3">
+                    <button type="submit" class="btn button">Registrarse</button>
+                    <button type="reset" class="btn button">Cancelar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="container mt-5" style="background-color: #FFE600; padding: 15px;">
+        <form class="bg-white p-5">
+            <h2 class="text-center mb-4">Inicio de sesión</h2>
+            <div class="row">
+                <div class="col-12 form-group">
+                    <label for="inputEmail">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="inputEmail">
+                </div>
+                <div class="col-12 form-group mt-3">
+                    <label for="inputPassword">Contraseña</label>
+                    <input type="password" class="form-control" id="inputPassword">
+                </div>
+                <div class="col-12 d-grid gap-2 mt-3">
+                    <button type="submit" class="btn button">Ingresar</button>
+                    <button type="reset" class="btn button">Cancelar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
