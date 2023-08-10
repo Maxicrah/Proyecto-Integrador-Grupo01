@@ -140,10 +140,9 @@ footer .social ul li {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
 
     border-color: #FFE500;
-    border-radius: 20px;
+    border-radius: 22px;
     border-style: solid;
     border-width: 10px;
-    
 }
 
 .div-form ,.titulo-form-registro
@@ -154,13 +153,13 @@ footer .social ul li {
     flex-direction:column;    
     align-items:center;
     text-align: left;
-    padding:2.5%;
-    flex-grow: 0.5;
+    padding:7%;
     color: rgba(29, 28, 28, 0.85)
 }
-.titulo-form-registro{
+.titulo-form-registro, .form-login{
     align-items: center; 
     text-align: center;
+    padding: 6%; 
 }
 .div-form label, .div-form input{
     align-items: center;
@@ -177,13 +176,13 @@ footer .social ul li {
 }
 .div-form-bt {
     display: flex;
-    padding:4%;
+    padding:2%;
     flex-direction: column;
 }
 .div-form-bt .botonreg, .div-form-bt .botonres, .add-to-cart{
     display: flex;
     flex-wrap: wrap;
-    height: 45px;
+    height: 22%;
     width: 100%;
     align-self: stretch;
     justify-content: center;
@@ -248,13 +247,26 @@ footer .social ul li {
         padding-left: 8%;
         padding-right: 8%;
     }
-         .form-container .form-login {
-             width: 50%;
+    .form-container .form-login {
+        width: 60%;
+        padding-top: 4%;
+            padding-left: 8%;
+            padding-right: 8%;
          }
        
     .form-container .form .div-form{
-        padding: 2%;
+        padding: 4%;
     }
+    .form-container .form .titulo-form-registro {
+        font-size: 150%;
+        text-align: center;
+    }
+        .div-form-bt{
+            padding: 5%;
+            width: 100%;
+            height: 100%;    
+        }
+     
 }
 
 
@@ -312,25 +324,32 @@ footer .social ul li {
         flex-direction: row;
         align-items: flex-start;
     }
-         .form-container .form-login {
+    
+    /*FORMULARIO*/
+    .form-container .form-login {
              width: 50%;
          }
     .form-container .form {
-        width: 50%;
+        width: 60%;
         padding-top: 5%;
             padding-left: 7%;
             padding-right: 7%  ;
     }
     .form-container .form .titulo-form-registro {
-            align-items: center;
-            font-size: 210%;
+            font-size: 200%;
             text-align: center;
     }
-        .form-container .form .div-form,.form-container .form .div-form input {
-            align-items: center;
-            font-size: 112%;
-            padding: 3%;
-        }
+     .form-container .form .div-form-bt{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-self: stretch;
+            justify-content: center;
+     }
+    .form-container .form .div-form,.form-container .form-login,.form-container .form .div-form input {
+        align-items: center;
+        font-size: 112%;
+    }
 
 }
 
@@ -357,11 +376,20 @@ main {
 /* MAYOR DE 1200px */
 
 @media (min-width: 1200px){
-    .form {
+
+    /* FORMULARIO */
+    .form-container .form{
         margin: 20px auto;
-        width: 50%;        
+        width: 60%; 
+        font-size:110%;
     }
-         .form-container .form-login {
-             width: 50%;
-         }
+        
+    .form-container .form .titulo-form-registro
+    {
+            text-align: center;
+            font-size: 220%;
+    }
+    .form-container .form-login {
+             width: 40%;
+    }
 }
