@@ -250,7 +250,7 @@ footer .social ul li {
     .navbar-links {
         display: flex;
         margin-right: 10px;
-        gap: 30px;
+        gap: 15px;
     }
 
     .navbar-links li a {
