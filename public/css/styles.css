@@ -119,15 +119,18 @@ footer .social ul li {
 }
 
 
-/* FORMULARIO REGISTRAR E INICIAR SESION*/
+/* FORMULARIO REGISTRAR E INICIO SESION*/
 
 .form-container{
     display: flex;
-    width: 570px;
+    width: 100%;
     flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.form{
+.form, .form-login{
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -142,6 +145,7 @@ footer .social ul li {
     border-width: 10px;
     
 }
+
 .div-form ,.titulo-form-registro
 {
     display: flex;
@@ -156,6 +160,7 @@ footer .social ul li {
 }
 .titulo-form-registro{
     align-items: center; 
+    text-align: center;
 }
 .div-form label, .div-form input{
     align-items: center;
@@ -172,20 +177,16 @@ footer .social ul li {
 }
 .div-form-bt {
     display: flex;
-    padding:13%;
+    padding:4%;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-self: stretch;
-    
 }
 .div-form-bt .botonreg, .div-form-bt .botonres, .add-to-cart{
     display: flex;
     flex-wrap: wrap;
-    height: 50px;
+    height: 45px;
+    width: 100%;
     align-self: stretch;
     justify-content: center;
-    align-items: center;
 
     color: rgba(255, 255, 255, 0.85);
     background-color: #FF5400;
@@ -193,7 +194,7 @@ footer .social ul li {
     font-size: 18px;
     font-weight: bold;
     border-color: #FF5400;
-    border-radius: 20px;
+    border-radius: 18px;
     border-style: solid;
     border-width: 10px;  
     margin: 5px 0;
@@ -242,7 +243,17 @@ footer .social ul li {
         margin: auto;
     }
     .form-container .form {
-        width: 80%;
+        width: 70%;
+        padding-top: 6%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+         .form-container .form-login {
+             width: 50%;
+         }
+       
+    .form-container .form .div-form{
+        padding: 2%;
     }
 }
 
@@ -301,11 +312,25 @@ footer .social ul li {
         flex-direction: row;
         align-items: flex-start;
     }
-
+         .form-container .form-login {
+             width: 50%;
+         }
     .form-container .form {
-        width: 70%;
+        width: 50%;
+        padding-top: 5%;
+            padding-left: 7%;
+            padding-right: 7%  ;
     }
-
+    .form-container .form .titulo-form-registro {
+            align-items: center;
+            font-size: 210%;
+            text-align: center;
+    }
+        .form-container .form .div-form,.form-container .form .div-form input {
+            align-items: center;
+            font-size: 112%;
+            padding: 3%;
+        }
 
 }
 
@@ -334,6 +359,9 @@ main {
 @media (min-width: 1200px){
     .form {
         margin: 20px auto;
-        width: 70%;        
+        width: 50%;        
     }
+         .form-container .form-login {
+             width: 50%;
+         }
 }
