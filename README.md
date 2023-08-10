@@ -14,3 +14,6 @@ https://totalnutrition.com.ar/
 https://www.nutrishop.com.ar/
 https://www.gymtonic.com.ar
 https://www.digitalsport.com.ar/
+
+Paleta de colores:
+#FFE500 (amarillo ) ,  #FF5400 (anaranjado)  , #FF0099 (fuxia medio neon)

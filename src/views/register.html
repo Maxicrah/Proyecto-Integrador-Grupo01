@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="/src/public/css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <a href="#"><img src="/src/public/images/logo.png" alt="Logo"></a>
+            </div>
+            <ul class="navbar-links">
+                <li><a href="#">Carrito</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Registrarse</a></li>
+                <li><a href="#">Iniciar Sesión</a></li>
+            </ul>
+            <i class="fas fa-bars"></i>
+        </nav>
+        <div class="search-form">
+            <form class="d-flex">
+                <input type="search" placeholder="Buscar">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        
+        <form class="form">
+            <h2 class="titulo-form-registro">Formulario de Registro</h2>
+            <div class="div-form">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+        
+            <div class="div-form">
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" required>
+            </div>
+
+            <div class="div-form">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="div-form">
+                <label for="reemail">Confirmar Correo Electrónico</label>
+                <input type="email" id="reemail" name="reemail" required>
+            </div>
+        
+            <div class="div-form">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="div-form">
+                <label for="repassword">Confirmar Contraseña</label>
+                <input type="password" id="repassword" name="repassword" required>
+            </div>
+                <div class="div-form-bt">
+                    <button type="submit" clase="botonreg">Registrarse</button>
+                    <button type="reset" clase="botonres">Cancelar</button>
+                </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <ul>
+                <li>Av. Salta 123 S.S. Jujuy</li>
+                <li>388-12345005646</li>
+                <li>grupo1@digitalHouse</li>
+                <li>Whatsapp: 388-123456789</li>
+            </ul>
+        </div>
+        <div class="socios">
+            <h3>Socios</h3>
+            <ul>
+                <li>Atención al socio</li>
+                <li>Solitud de descuentos</li>
+                <li>Trámite médico</li>
+                <li>Tarjeta socio</li>
+                <li>Legales</li>
+            </ul>
+        </div>
+
+        <div class="social">
+            <div class="logo__footer">
+                <img src="/src/public/images/logo.png" alt="logo" width="200px">
+            </div>
+            <ul>
+                <li><i class="fab fa-facebook-square"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="far fa-envelope"></i></li>
+            </ul>
+        </div>
+        <p>Copyright &copy; 2023 Grupo-1-DH-C8-TM</p>
+    </footer>
+
+</body>
+
+</html>
