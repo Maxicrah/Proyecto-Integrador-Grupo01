@@ -9,11 +9,11 @@
 - Perez Luis:
 
 ### Referentes del mercado:
-[url](https://titansport.com.ar/)
-[url](https://totalnutrition.com.ar/)
-[url](https://www.nutrishop.com.ar/)
-[url](https://www.gymtonic.com.ar)
-[url](https://www.digitalsport.com.ar/)
+[Titansport](https://titansport.com.ar/)
+[Totalnutrition](https://totalnutrition.com.ar/)
+[Nutrishop](https://www.nutrishop.com.ar/)
+[Gymtonic](https://www.gymtonic.com.ar)
+[Digitalsport](https://www.digitalsport.com.ar/)
 
 ### Paleta de colores:
 **#FFE500 (amarillo )** ,  **#FF5400 (anaranjado)**  , **#FF0099 (fuxia medio neon)**
