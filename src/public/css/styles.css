@@ -178,6 +178,63 @@ footer .social ul li {
     footer div {
         width: 400px;
     }
+/*boxes para el product detail*/
+    main {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+}
+
+ /*PRODUCTDETAIL*/
+@media (max-width: 767px) {
+main {
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-detail {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.product-image img {
+    margin: 0;
+}
+}
+
+
+/* Estilos para la página de productDetail */
+
+main {
+    display: flex;
+    height: calc(70vh - 10px);
+    flex-grow: 10;
+    margin-block: 10px;
+}
+.product-detail {
+    display: flex;
+    margin: 20px;
+    background-color: #fff; /* Agrega un fondo sólido */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #FF5400;
+    border-radius: 4px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.product-info {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
 
 }
 
