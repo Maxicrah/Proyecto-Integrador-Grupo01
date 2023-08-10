@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 
-app.use(express.static(__dirname+'\\public'));
+app.use(express.static('public'));
 
 const PORT = 3000
 
@@ -11,6 +11,14 @@ const PORT = 3000
 // });
 app.get('/', (req,res)=>{
     res.sendFile(__dirname + '/views/headerFooter.html');
+});
+
+app.get('/productDetail', (req,res)=>{
+    res.sendFile(__dirname + '/views/productDetail.html');
+});
+
+app.get('/productCart', (req,res)=>{
+    res.sendFile(__dirname + '/views/productCart.html');
 });
 
 app.get('/register', (req,res)=>{
