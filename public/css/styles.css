@@ -10,7 +10,7 @@
 }
 
 .header {
-    background-color: #FFE500;
+    background-color: #7700ff;
 
 }
 body{
@@ -33,7 +33,7 @@ body{
     margin: 0;
     padding: 0;
     display: none;
-    gap: 20px;
+    gap: 10px;
 }
 
 .navbar-links a {
