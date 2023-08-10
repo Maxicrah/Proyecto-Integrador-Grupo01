@@ -122,24 +122,19 @@ footer .social ul li {
 /* FORMULARIO REGISTRAR E INICIAR SESION*/
 
 .form-container{
-    height: 100%;
+    display: flex;
+    width: 570px;
+    flex-wrap: wrap;
 }
 
 .form{
     display:flex;
-    width:300px;
-    
-    margin:auto;
-    padding: 2%;
-    margin-top: 10%;
-    background-color: #fff;
-
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     flex-direction: column;
-    /* flex-grow: 0.5; */
-    justify-content: center;
-    align-items: center;
-    align-self: stretch;
+    margin: 8%;
+    padding: 6%;
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
 
     border-color: #FFE500;
     border-radius: 20px;
@@ -147,26 +142,37 @@ footer .social ul li {
     border-width: 10px;
     
 }
-.div-form
+.div-form ,.titulo-form-registro
 {
     display: flex;
     flex-wrap: wrap;
-    width: 250px;
-    flex-direction: column;    
+    width: 100%;
+    flex-direction:column;    
     align-items:center;
-    padding:9px;
+    text-align: left;
+    padding:2.5%;
     flex-grow: 0.5;
+    color: rgba(29, 28, 28, 0.85)
 }
-
-.div-form input[type="text"], .div-form input[type="email"], .div-form input[type="password"] {
+.titulo-form-registro{
+    align-items: center; 
+}
+.div-form label, .div-form input{
     align-items: center;
     align-self: stretch;
     
 }
-
+.div-form input {
+    border-color: rgba(182, 182, 182, 0.979);
+    border-radius: 5px;
+    border-width: 1.2px;
+    border-style: solid;
+    margin: 2px 0;
+    height: 30px;
+}
 .div-form-bt {
     display: flex;
-    padding:20px;
+    padding:13%;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -175,11 +181,21 @@ footer .social ul li {
 }
 .div-form-bt .botonreg, .div-form-bt .botonres, .add-to-cart{
     display: flex;
-    padding: 20px;
     flex-wrap: wrap;
+    height: 50px;
     align-self: stretch;
-    color: #FF5400;
+    justify-content: center;
+    align-items: center;
+
+    color: rgba(255, 255, 255, 0.85);
+    background-color: #FF5400;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    font-weight: bold;
+    border-color: #FF5400;
     border-radius: 20px;
+    border-style: solid;
+    border-width: 10px;  
     margin: 5px 0;
 }
 
@@ -226,7 +242,7 @@ footer .social ul li {
         margin: auto;
     }
     .form-container .form {
-        width: 90%;
+        width: 80%;
     }
 }
 
@@ -318,6 +334,6 @@ main {
 @media (min-width: 1200px){
     .form {
         margin: 20px auto;
-        
+        width: 70%;        
     }
 }
