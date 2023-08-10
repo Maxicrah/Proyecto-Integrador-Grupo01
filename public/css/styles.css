@@ -173,7 +173,7 @@ footer .social ul li {
     align-self: stretch;
     
 }
-.div-form-bt .botonreg, .div-form-bt .botonres{
+.div-form-bt .botonreg, .div-form-bt .botonres, .add-to-cart{
     display: flex;
     padding: 20px;
     flex-wrap: wrap;
@@ -192,6 +192,7 @@ footer .social ul li {
     flex-grow: 10;
     margin-block: 10px;
 }
+
 .product-detail {
     display: flex;
     margin: 20px;
@@ -224,6 +225,9 @@ footer .social ul li {
         max-width: 500px;
         margin: auto;
     }
+    .form-container .form {
+        width: 90%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -242,7 +246,7 @@ footer .social ul li {
 
     .navbar-links {
         display: flex;
-        margin-right: 30px;
+        margin-right: 10px;
         gap: 30px;
     }
 
@@ -278,6 +282,11 @@ footer .social ul li {
         flex-direction: row;
         align-items: flex-start;
     }
+
+    .form-container .form {
+        width: 70%;
+    }
+
 
 }
 
