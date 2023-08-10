@@ -219,7 +219,7 @@ footer .social ul li {
 }
 
 
-
+/*   TABLET   */
 @media (min-width: 375px) {
     .search-form {
         max-width: 500px;
@@ -229,6 +229,9 @@ footer .social ul li {
         width: 90%;
     }
 }
+
+
+/* DESKTOP */
 
 @media (min-width: 768px) {
     .navbar-logo a img {
@@ -310,7 +313,7 @@ main {
 
 
 
-
+/* MAYOR DE 1200px */
 
 @media (min-width: 1200px){
     .form {
