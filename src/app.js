@@ -17,24 +17,22 @@ app.get('/', (req, res) => {
 });
 
 
-// app.get('/', (req,res)=>{
-//     res.sendFile(__dirname + '/views/headerFooter.html');
-// });
-
 app.get('/productDetail', (req, res) => {
-    res.sendFile(__dirname + '/views/productDetail.html');
+    
+    res.render('productDetail', {'title': 'productDetail'})
 });
 
 app.get('/productCart', (req, res) => {
-    res.sendFile(__dirname + '/views/productCart.html');
+    
+    res.render('productCart', {'title': 'productCart'})
 });
 
 app.get('/register', (req, res) => {
-    res.sendFile(__dirname + '/views/register.html');
+    res.render('register', {'title': 'register'})
 });
 
 app.get('/login', (req, res) => {
-    res.sendFile(__dirname + '/views/login.html');
+    res.render('login', {'title': 'login'});
 });
 
 
