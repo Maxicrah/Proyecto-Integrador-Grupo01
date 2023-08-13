@@ -94,6 +94,18 @@ main .enlaces .gym{
     border: dashed 3px black;
 }
 
+main .enlaces .planes{
+    border: dashed 3px black;
+}
+
+main .enlaces .sport{
+    border: dashed 3px black;
+}
+
+main .enlaces .contacto{
+    border: dashed 3px black;
+}
+
 footer {
     background-color: #FFE500;
     padding: 15px;
