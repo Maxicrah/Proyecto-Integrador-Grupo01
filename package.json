@@ -1,0 +1,22 @@
+{
+  "name": "html_css",
+  "version": "1.0.0",
+  "description": "Temática: Productos y planes para Gimnasio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "gulp": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "remixicon": "^3.4.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2"
+  },
+  "keywords": []
+}
