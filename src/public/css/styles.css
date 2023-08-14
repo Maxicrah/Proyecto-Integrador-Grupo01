@@ -112,7 +112,7 @@ main .enlaces .contacto{
 section img.bannerGrande{
     width:100%;
     border:solid 7px #FFE500;
-    border-bottom: solid 3px red ;
+    border-bottom: solid 7px red ;
 }
 
 main section.spamLogin{
@@ -121,7 +121,38 @@ main section.spamLogin{
     font-family: 'Orbitron', sans-serif;
     font-size:30px;
     text-align:center;
+    border-top: solid 3px black;
     text-shadow:2px 2px 3px rgba(0,0,0,0.9);
+}
+
+.elemento{
+    margin-bottom:10px;
+    width:100%;
+
+}
+
+div.elemento img{
+   height:10%;
+}
+
+div.caja{
+    border-top: solid 1px #ebebeb;
+    padding:15px;
+}
+
+
+div.precio{
+    font-size:18px;
+}
+
+div.descuento{
+    font-size:16px;
+    color:rgb(51,230,34);
+    margin-bottom:20px;
+}
+
+div.descripcion{
+    font-size:16px;
 }
 
 footer {
