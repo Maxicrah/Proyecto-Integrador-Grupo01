@@ -107,6 +107,7 @@ main .enlaces .planes,
 main .enlaces .sport,
 main .enlaces .contacto{
     border: dashed 3px black;
+    font-family: 'Orbitron', sans-serif;
 }
 
 section img.bannerGrande{
