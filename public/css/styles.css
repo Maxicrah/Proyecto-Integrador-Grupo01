@@ -72,6 +72,105 @@ body{
     cursor: pointer;
     border-radius: 0 8px 8px 0;
 }
+/*estilos de la pagina principal*/
+
+
+section.imagenes{
+    display:flex;
+    flex-direction:row;
+}
+section.imagenes img{
+    display:flex;
+    width:33%;
+    background-color: white;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+
+}
+
+main .enlaces{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: #FFE500;
+    border-top: solid 3px red;
+    font-family: 'Orbitron', sans-serif;
+    font-size:20px;
+}
+
+main .enlaces{
+    padding:7px;
+}
+
+main .enlaces .gym,
+main .enlaces .planes,
+main .enlaces .sport,
+main .enlaces .contacto{
+    border: dashed 3px black;
+}
+
+section img.bannerGrande{
+    width:100%;
+    border:solid 7px #FFE500;
+    border-bottom: solid 7px red ;
+}
+
+main section.spamLogin{
+    background-color: #FFE500;
+    color: red;
+    font-family: 'Orbitron', sans-serif;
+    font-size:30px;
+    text-align:center;
+    border-top: solid 3px black;
+    text-shadow:2px 2px 3px rgba(0,0,0,0.9);
+}
+
+section.productosDestacados{
+    display:flex;
+    background-color: white;
+    flex-direction: row;
+    width:100%;
+    height:400px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+.elemento{
+    margin-bottom:10px;
+    width:100%;
+    background-color: grey;
+
+}
+
+div.elemento img{
+   height:10%;
+   border: solid 5px #FF5400;
+}
+
+div.caja{
+    border-top: solid 1px #ebebeb;
+    padding:15px;
+}
+
+
+div.precio{
+    font-size:18px;
+}
+
+div.descuento{
+    font-size:16px;
+    color:rgb(51,230,34);
+    margin-bottom:20px;
+}
+
+div.descripcion{
+    font-size:16px;
+}
+
+div.comprar{
+    background-color: black;
+    color: white;
+}
+
 
 footer {
     background-color: #FFE500;
