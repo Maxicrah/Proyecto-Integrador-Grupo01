@@ -72,6 +72,7 @@ body{
     cursor: pointer;
     border-radius: 0 8px 8px 0;
 }
+
 /*estilos de la pagina principal*/
 
 
@@ -139,11 +140,12 @@ section.productosDestacados{
     margin-bottom:10px;
     width:100%;
     background-color: grey;
+    
 
 }
 
 div.elemento img{
-   height:10%;
+   height:60%;
    border: solid 5px #FF5400;
 }
 
@@ -413,6 +415,15 @@ h1 {
     .form-container .form {
         width: 90%;
     }
+
+    section.productosDestacados{
+        flex-direction: column;
+    }
+
+    div.elemento img{
+        height:25%;
+        border: solid 5px #FF5400;
+     }
     
 }
 
@@ -447,6 +458,10 @@ h1 {
     .navbar-links li a:hover {
         text-shadow: 5px 5px 20px #FF5400;
         transition: text-shadow 0.3s ease-in-out;
+    }
+
+    section.productosDestacados{
+        flex-direction: row;
     }
 
     footer p {
