@@ -1,5 +1,3 @@
 node_modules
-gulpfile.js
-package-lock.json
 docs
-*.zip
+package-lock.json

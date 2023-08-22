@@ -1,7 +1,7 @@
 {
   "name": "html_css",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Maximiliano Flores:\r - Micaela Galian:\r - Pablo Castillo:\r - Ulises Alfonso:\r - Pérez Luis:",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,12 +11,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "remixicon": "^3.4.0"
   },
   "devDependencies": {
     "browser-sync": "^2.29.3",
+<<<<<<< HEAD
     "gulp": "^4.0.2",
     "nodemon": "^3.0.1"
   }
+=======
+    "gulp": "^4.0.2"
+  },
+  "keywords": []
+>>>>>>> 8a9c0b6a223e37f0c3ca71817484186b0f3c2ceb
 }

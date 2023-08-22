@@ -6,11 +6,9 @@ app.use(express.static('public'));
 
 const PORT = 3000
 
-// app.get('/', (req,res)=>{
-//     res.sendFile(__dirname + '/views/home.html');
-// });
+
 app.get('/', (req,res)=>{
-    res.sendFile(__dirname + '/views/headerFooter.html');
+    res.sendFile(__dirname + '/views/home.html');
 });
 
 app.get('/productDetail', (req,res)=>{
