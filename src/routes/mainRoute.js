@@ -6,7 +6,7 @@ router.get('/', controller.home)
 
 router.get('/productDetail', controller.productDetail)
 
-router.get('/cartDetail', controller.cartDetail)
+router.get('/productCart', controller.cartDetail)
 
 router.get('/register', controller.register)
 

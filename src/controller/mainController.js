@@ -8,7 +8,7 @@ const mainController = {
     },
 
     cartDetail: (req, res) => {
-        return res.render('cartDetail')
+        return res.render('productCart')
     },
 
     register: (req, res) => {
