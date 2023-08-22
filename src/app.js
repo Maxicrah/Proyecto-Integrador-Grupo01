@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+const routerMain = require('./routes/mainRoute')
+const path = require('path');
 app.use(express.static('public'));
 
 const path = require('path');
@@ -12,27 +14,24 @@ const PORT = 3000
 // app.get('/', (req,res)=>{
 //     res.sendFile(__dirname + '/views/home.html');
 // });
-app.get('/', (req, res) => {
-    res.render('index', {'title': 'index.ejs'});
+app.get('/', (req,res)=>{
+    res.sendFile(__dirname + '/views/headerFooter.html');
 });
 
-
-app.get('/productDetail', (req, res) => {
-    
-    res.render('productDetail', {'title': 'productDetail'})
+app.get('/productDetail', (req,res)=>{
+    res.sendFile(__dirname + '/views/productDetail.html');
 });
 
-app.get('/productCart', (req, res) => {
-    
-    res.render('productCart', {'title': 'productCart'})
+app.get('/productCart', (req,res)=>{
+    res.sendFile(__dirname + '/views/productCart.html');
 });
 
-app.get('/register', (req, res) => {
-    res.render('register', {'title': 'register'})
+app.get('/register', (req,res)=>{
+    res.sendFile(__dirname + '/views/register.html');
 });
 
-app.get('/login', (req, res) => {
-    res.render('login', {'title': 'login'});
+app.get('/login', (req,res)=>{
+    res.sendFile(__dirname + '/views/login.html');
 });
 
 
