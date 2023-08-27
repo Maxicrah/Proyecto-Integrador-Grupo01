@@ -17,6 +17,10 @@ const mainController = {
 
     login: (req, res) => {
         return res.render('login')
+    },
+
+    formCreateProduct: (req, res) => {
+        return res.render('formCreateProduct')
     }
 }
 
