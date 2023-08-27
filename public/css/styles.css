@@ -604,3 +604,136 @@ main {
     }
     
 }
+
+/* Estilos para el formulario cargar productos en pantallas de celulares */
+@media (max-width: 767px) {
+    .titleFormCreateProduct {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .formCreateProduct {
+        max-width: 300px;
+        margin: auto;
+        padding: 10px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nameProduct {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .createProduct[type="text"],
+    .createProduct[type="number"],
+    .textAreaCreateProduct,
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .btnCreateProduct[type="submit"] {
+        width: 100%;
+        background-color: #FF5400;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+}
+/* Estilos para el formulario cargar productos en pantallas de tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .titleFormCreateProduct {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .formCreateProduct {
+        max-width: 500px;
+        margin: auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nameProduct {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .createProduct[type="text"],
+    .createProduct[type="number"],
+    .textAreaCreateProduct,
+    select {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .btnCreateProduct[type="submit"] {
+        width: 100%;
+        background-color: #FF5400;
+        color: white;
+        border: none;
+        padding: 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+/* Estilos para el formulario cargar productos en pantallas de escritorio */
+@media (min-width: 768px) {
+    .titleFormCreateProduct {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .formCreateProduct {
+        max-width: 500px;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nameProduct {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .createProduct[type="text"],
+    .createProduct[type="number"],
+    .textAreaCreateProduct,
+    select {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .btnCreateProduct[type="submit"] {
+        width: 100%;
+        background-color: #FF5400;
+        color: white;
+        border: none;
+        padding: 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
