@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partial/head') %>
     <title>Form Create Product</title>
-    <link rel="stylesheet" href="css/styles.css">
-
 </head>
 <body>
     <%- include('partial/header') %>
@@ -29,7 +26,7 @@
         <label class="nameProduct" for="price">Precio:</label>
         <input class="createProduct" type="number" id="price" name="price" step="0.01" required><br>
         
-        <button class="btnCreateProduct" type="submit">Agregar Producto</button>
+        <button class="btnPrimary" type="submit">Agregar Producto</button>
       </form>
       <%- include('partial/footer')%>
 </body>
