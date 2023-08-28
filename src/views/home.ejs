@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiHouse</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+   
+
+    <%- include('partial/header') %>
+   
+
+    <main>
+        <section class ="imagenes">
+            <img src="/images/ejercicio.jpg" class="imagen">
+            <img src = "/images/ejercicio2.jpg" class="imagen2">
+            <img src ="/images/ejercicio3.jpg" class="imagen3">
+        </section>
+
+        <section class="enlaces">
+            <a href="#gym" class="gym">gym</a>
+            <a href="#" class="planes">planes</a>
+            <a href="#sport" class="sport">sport</a>
+            <a href="#" class="contacto">contacto</a>
+        </section>
+
+        <section>
+            <img id="gym" src="/images/FH1.png" class="bannerGrande">
+        </section>
+
+        <section class="spamLogin">
+            <div><a href="/register">Registrarse</a></div>
+        </section>
+
+        <section class="productosDestacados">
+            <div id="sport" class="elemento">
+                <img src="/images/barra.jpg" alt="barra" ></img>
+                <div class="caja">
+                    <div class="nombre"><b>Barra Cromada 2,20 m 30 cm</b></div>
+                    <div class="precio">$50.000</div>
+                    <div class="cuotas">6 cuotas sin interes</div>
+                    <a href="/productDetail">Añadir al carrito</a>
+                </div>
+            </div>
+
+            <div class="elemento">
+                <img src="/images/suplemento-dietario.webp" alt="suplemento" ></img>
+                <div class="caja">
+                    <div class="nombre"><b>Whey proteina x 930g</b></div>
+                    <div class="precio">$15.000</div>
+                    <div class="cuotas">3 cuotas sin interes</div>
+                    <a href="/productDetail">Añadir al carrito</a>
+                </div>
+            </div>
+
+            <div class="elemento">
+                <img src="/images/grip.webp" alt="grip" ></img>
+                <div class="caja">
+                    <div class="nombre"><b>Nike grip push up</b></div>
+                    <div class="precio">$18.000</div>
+                    <div class="cuotas">6 cuotas sin interes</div>
+                    <a href="/productDetail">Añadir al carrito</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <%- include('partial/footer')%>
+
+</body>
+
+</html>
