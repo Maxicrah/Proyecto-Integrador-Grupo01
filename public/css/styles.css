@@ -93,15 +93,15 @@ section.imagenes img {
     border-bottom: solid 3px orangered;
 
 }
-main
+.home
 {
     background-color: #FFE500;
 }
-main .enlaces {
+.home .enlaces {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #FFE500;
+    background-color: rgba(128, 128, 128, 0.368);
     border-top: solid 3px rgba(0, 0, 0, 0.77);
     border-bottom: solid 3px rgba(0, 0, 0, 0.77);
     font-family: 'Orbitron', sans-serif;
@@ -126,18 +126,21 @@ main .enlaces .contacto {
 
 section img.bannerGrande {
     width: 100%;
-    border: solid 7px #FFE500;
-    border-bottom: solid 7px red;
+    border: solid 7px orangered;
+    padding: auto;
 }
 
 main section.spamLogin {
-    background-color: #FFE500;
-    color: red;
+    background-color: rgba(128, 128, 128, 0.368);
     font-family: 'Orbitron', sans-serif;
     font-size: 30px;
     text-align: center;
-    border-top: solid 3px black;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.9);
+    padding: 2%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-top: solid 3px rgba(0, 0, 0, 0.77);
+    border-bottom: solid 3px rgba(0, 0, 0, 0.77);    
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.664);
 }
 
 section.productosDestacados {
@@ -151,26 +154,28 @@ section.productosDestacados {
 }
 
 .elemento {
-    margin-bottom: 10px;
+    margin: 10px;
     width: 100%;
-    background-color: grey;
-
-
+    background-color: rgba(128, 128, 128, 0.368);
+    padding: 1%;
 }
 
 div.elemento img {
-    height: 60%;
-    border: solid 5px #FF5400;
+    width: 50%;
+    border: solid 2px #FF5400;
 }
 
 div.caja {
-    border-top: solid 1px #ebebeb;
+    border-top: solid 3px #ebebeb;
     padding: 15px;
 }
 
+div.nombre {
+    font-size: 20px;
 
+}
 div.precio {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 div.descuento {
@@ -239,40 +244,38 @@ footer .social ul li {
 
 .form-container {
     height: 100%;
+    background-color: white;
+    align-items: center;
 }
 
 .form {
     display: flex;
     width: 300px;
-
-    margin: auto;
+    background-color: white;
+    margin: 5%;
     padding: 2%;
-    margin-top: 10%;
-    background-color: #fff;
-    margin-bottom: 20px;
-
-    /* flex-wrap: wrap; */
+    margin-top: 8%;
+    margin-bottom: 8%;
+    flex-wrap: wrap; 
     flex-direction: column;
-    /* flex-grow: 0.5; */
-    justify-content: center;
     align-items: center;
-    align-self: stretch;
-
+    
     border-color: #FFE500;
     border-radius: 20px;
     border-style: solid;
     border-width: 10px;
-
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .div-form {
     display: flex;
     flex-wrap: wrap;
-    width: 250px;
+    width: 65%;
     flex-direction: column;
-    align-items: center;
-    padding: 9px;
+    padding: 2%;
     flex-grow: 0.5;
+    background-color: white;
+    
 }
 
 .div-form input[type="text"],
@@ -280,17 +283,20 @@ footer .social ul li {
 .div-form input[type="password"] {
     align-items: center;
     align-self: stretch;
+    padding: 2%;
 
 }
 
 .div-form-bt {
     display: flex;
-    padding: 20px;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     align-self: stretch;
-    gap: 10px;
+    gap: 15px;
 
 }
 
@@ -533,7 +539,7 @@ main {
     }
 
     .form-container .form {
-        width: 70%;
+        width: 45%;
     }
 
 
@@ -657,8 +663,7 @@ main {
 
 @media (min-width: 1200px) {
     .form {
-        margin: 20px auto;
-
+        width: 50%;
     }
 
 }
@@ -705,12 +710,17 @@ main {
         border-radius: 4px;
         cursor: pointer;
     }
-
+          .form {
+              width: 50%;
+          }
 
 }
 
 /* Estilos para el formulario cargar productos en pantallas de tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
+    .form {
+            width: 45%;
+        }
     .titleFormCreateProduct {
         text-align: center;
         margin-bottom: 20px;
