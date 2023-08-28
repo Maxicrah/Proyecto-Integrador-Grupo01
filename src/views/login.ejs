@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <%- include('partial/header') %>
+    <main>
+        <form class="form">
+            <h2 class="titulo-form-registro">Inicio de sesión</h2>
+
+            <div class="div-form">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="div-form">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="div-form-bt">
+                <button type="submit" class="btnPrimary">Ingresar</button>
+                <button type="reset" class="btnPrimary">Cancelar</button>
+            </div>
+
+        </form>
+    </main>
+
+    <%- include('partial/footer') %>
+
+</body>
+
+</html>
