@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 a {
@@ -80,37 +81,47 @@ a {
 section.imagenes {
     display: flex;
     flex-direction: row;
+    padding-top: 12px;
+    padding-bottom: 10px;
 }
 
 section.imagenes img {
     display: flex;
-    width: 33%;
+    width: 33.3%;
     background-color: white;
-    border-top: solid 3px black;
-    border-bottom: solid 3px black;
+    border-top: solid 3px orangered;
+    border-bottom: solid 3px orangered;
 
 }
-
+main
+{
+    background-color: #FFE500;
+}
 main .enlaces {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #FFE500;
-    border-top: solid 3px red;
+    border-top: solid 3px rgba(0, 0, 0, 0.77);
+    border-bottom: solid 3px rgba(0, 0, 0, 0.77);
     font-family: 'Orbitron', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 
 main .enlaces {
-    padding: 7px;
+    padding: 12px;
 }
 
 main .enlaces .gym,
 main .enlaces .planes,
 main .enlaces .sport,
 main .enlaces .contacto {
-    border: dashed 3px black;
+    border: dashed 3px rgba(0, 0, 0, 0.733);
+    padding: 8px;
     font-family: 'Orbitron', sans-serif;
+    color: black;
 }
 
 section img.bannerGrande {
