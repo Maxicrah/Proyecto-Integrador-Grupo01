@@ -14,4 +14,7 @@ router.get('/login', controller.login)
 
 router.get('/formCreateProduct', controller.formCreateProduct)
 
+router.get('/products', controller.products)
+
+
 module.exports = router

@@ -1,3 +1,5 @@
+const productController = require("./productsController") //importamos controlador de productos
+
 const mainController = {
     home: (req, res) => {
         return res.render('home')
@@ -21,6 +23,12 @@ const mainController = {
 
     formCreateProduct: (req, res) => {
         return res.render('formCreateProduct')
+    },
+
+    products: (req, res) => {
+        const productos = productController.obtenerProductos();
+        console.log(productos);
+        return res.render("products", { productos })
     }
 }
 
