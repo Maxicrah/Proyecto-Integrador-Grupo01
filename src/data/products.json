@@ -1,202 +1,50 @@
 [
     {
         "id": 1,
-        "name": "maecenas ut massa",
-        "image": "prenda4.png",
-        "description": "in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget",
-        "color": "fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam",
-        "price": 8451.46
+        "name": "Barra Cromada",
+        "image": "barra.jpg",
+        "description": "Barra cromada de gimnasio fabricada con acero resistente.",
+        "color": "Plateado Brillante",
+        "price": 50.000
     },
     {
         "id": 2,
-        "name": "non mattis pulvinar nulla pede ullamcorper augue a",
-        "image": "prenda5.png",
-        "description": "lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus",
-        "color": "sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea",
-        "price": 4383.28
+        "name": "Nike grip push up",
+        "image": "Naike.jpg",
+        "description": "Las Nike Grip Push Up son el accesorio esencial para mejorar tu rutina de flexiones.",
+        "color": "negro",
+        "price": 18.000
     },
     {
         "id": 3,
-        "name": "ipsum primis in faucibus orci",
-        "image": "prenda5.png",
-        "description": "amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit",
-        "color": "vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum",
-        "price": 3754.78
+        "name": "Whey Proteina x 930g",
+        "image": "Prote.webp",
+        "description":"Esta fórmula de alta calidad se absorbe rápidamente, brindando a tus músculos el impulso de proteína que necesitan para crecer y recuperarse después de entrenar.",
+        "color": null,
+        "price": 15.000
     },
     {
         "id": 4,
-        "name": "euismod scelerisque quam",
-        "image": "prenda5.png",
-        "description": "dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi",
-        "color": "nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut",
-        "price": 8346.91
+        "name": "Botella de agua deportiva",
+        "image": "botella_agua_deportiva.jpg",
+        "description": "Diseñada pensando en atletas y entusiastas del deporte, esta botella resistente y ergonómica te permite llevar tus bebidas favoritas a donde quiera que vayas.",
+        "color": "negro",
+        "price": 4.250
     },
     {
         "id": 5,
-        "name": "posuere nonummy integer non velit donec",
-        "image": "prenda3.png",
-        "description": "nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse",
-        "color": "in leo maecenas pulvinar lobortis est phasellus sit amet erat",
-        "price": 1830.04
+        "name": "Saco de boxeo",
+        "image": "saco_boxeo.jpg",
+        "description": "Fabricado con materiales de alta resistencia, este saco te permite liberar energía y mejorar tus habilidades de golpeo mientras trabajas en tu condición física.",
+        "color": "rojo",
+        "price": 14.250
     },
     {
         "id": 6,
-        "name": "justo sit amet sapien dignissim vestibulum vestibulum",
-        "image": "prenda4.png",
-        "description": "tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque",
-        "color": "lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id",
-        "price": 9853.32
-    },
-    {
-        "id": 7,
-        "name": "ut dolor morbi vel lectus in quam fringilla rhoncus mauris",
-        "image": "prenda5.png",
-        "description": "magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris",
-        "color": "vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi",
-        "price": 6953.43
-    },
-    {
-        "id": 8,
-        "name": "ligula pellentesque ultrices phasellus id sapien in",
-        "image": "prenda3.png",
-        "description": "at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim",
-        "color": "in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula",
-        "price": 2040.53
-    },
-    {
-        "id": 9,
-        "name": "vel dapibus at diam",
-        "image": "prenda5.png",
-        "description": "odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna",
-        "color": "dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing",
-        "price": 1297.93
-    },
-    {
-        "id": 10,
-        "name": "fusce consequat nulla nisl nunc nisl duis bibendum felis sed",
-        "image": "prenda5.png",
-        "description": "consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris",
-        "color": "enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam",
-        "price": 4242.82
-    },
-    {
-        "id": 11,
-        "name": "lacus morbi",
-        "image": "prenda3.png",
-        "description": "magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at",
-        "color": "sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla",
-        "price": 1156.26
-    },
-    {
-        "id": 12,
-        "name": "in est risus",
-        "image": "prenda4.png",
-        "description": "molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit",
-        "color": "tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum",
-        "price": 6920.57
-    },
-    {
-        "id": 13,
-        "name": "luctus ultricies eu nibh quisque",
-        "image": "prenda2.png",
-        "description": "justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula",
-        "color": "in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper",
-        "price": 6357.09
-    },
-    {
-        "id": 14,
-        "name": "blandit lacinia erat vestibulum",
-        "image": "prenda5.png",
-        "description": "vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in",
-        "color": "sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean",
-        "price": 9982.97
-    },
-    {
-        "id": 15,
-        "name": "nisl nunc rhoncus dui vel sem sed sagittis",
-        "image": "prenda6.png",
-        "description": "et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed",
-        "color": "turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet",
-        "price": 1627.39
-    },
-    {
-        "id": 1,
-        "name": null,
-        "image": null,
-        "description": null,
-        "color": null,
-        "price": null
-    },
-    {
-        "id": 2,
-        "name": null,
-        "image": null,
-        "description": null,
-        "color": null,
-        "price": null
-    },
-    {
-        "id": 3,
-        "name": null,
-        "image": null,
-        "description": null,
-        "color": null,
-        "price": null
-    },
-    {
-        "id": 4,
-        "name": null,
-        "image": null,
-        "description": null,
-        "color": null,
-        "price": null
-    },
-    {
-        "id": 5,
-        "name": null,
-        "image": null,
-        "description": null,
-        "color": null,
-        "price": null
-    },
-    {
-        "id": 6,
-        "name": null,
-        "image": null,
-        "description": null,
-        "color": null,
-        "price": null
-    },
-    {
-        "id": 7,
-        "name": null,
-        "image": null,
-        "description": null,
-        "color": null,
-        "price": null
-    },
-    {
-        "id": 8,
-        "name": null,
-        "image": null,
-        "description": null,
-        "color": null,
-        "price": null
-    },
-    {
-        "id": 9,
-        "name": null,
-        "image": null,
-        "description": null,
-        "color": null,
-        "price": null
-    },
-    {
-        "id": 10,
-        "name": null,
-        "image": null,
-        "description": null,
-        "color": null,
-        "price": null
+        "name": "Guantes de boxeo",
+        "image": "guantes_boxeo.jpg",
+        "description": "Fabricados con materiales de alta calidad y atención meticulosa a los detalles, estos guantes te permiten entrenar con confianza y estilo.",
+        "color": "rojo",
+        "price": 10.000
     }
 ]
