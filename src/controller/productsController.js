@@ -7,8 +7,10 @@ function cargarProductos(){
         const filePath = path.join(__dirname, '..', 'data', 'products.json');
         const data = fs.readFileSync(filePath,"utf-8");
         productos = JSON.parse(data);
+        //probando si cargan los productos pueden borrarlo si quieren
         console.log("Productos cargados con exito");
     }catch (error){
+        //en caso de que no carguen productos acá saldra el error
         console.error("Error al cargar el producto",error);
     }
 }
