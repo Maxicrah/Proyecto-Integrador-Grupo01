@@ -7,11 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    
-}
 
-a {
-    text-decoration: none;
 }
 
 a {
@@ -97,10 +93,11 @@ section.imagenes img {
     border-bottom: solid 3px orangered;
 
 }
-.home
-{
+
+.home {
     background-color: #FFE500;
 }
+
 .home .enlaces {
     display: flex;
     flex-direction: row;
@@ -108,22 +105,17 @@ section.imagenes img {
     background-color: rgba(128, 128, 128, 0.368);
     border-top: solid 3px rgba(0, 0, 0, 0.77);
     border-bottom: solid 3px rgba(0, 0, 0, 0.77);
-    font-family: 'Orbitron', sans-serif;
-    font-size: 22px;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    font-size: 19px;
+    margin: 7px 0;
 }
 
 main .enlaces {
-    padding: 12px;
+    padding: 10px;
 }
 
-main .enlaces .gym,
-main .enlaces .planes,
-main .enlaces .sport,
-main .enlaces .contacto {
+main .enlaces a {
     border: dashed 3px rgba(0, 0, 0, 0.733);
-    padding: 8px;
+    padding: 5px;
     font-family: 'Orbitron', sans-serif;
     color: black;
 }
@@ -143,15 +135,16 @@ main section.spamLogin {
     margin-top: 7px;
     margin-bottom: 7px;
     border-top: solid 3px rgba(0, 0, 0, 0.77);
-    border-bottom: solid 3px rgba(0, 0, 0, 0.77);    
+    border-bottom: solid 3px rgba(0, 0, 0, 0.77);
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.664);
 
 }
 
-section.productosDestacados {
+.productosDestacados {
     display: flex;
-    background-color: white;
     flex-direction: row;
+    align-items: center;
+    background-color: white;
     width: 100%;
     height: 400px;
     position: relative;
@@ -160,13 +153,15 @@ section.productosDestacados {
 
 .elemento {
     margin: 10px;
-    width: 100%;
+    width: 80%;
+    max-width: 520px;
     background-color: rgba(128, 128, 128, 0.368);
     padding: 1%;
 }
 
 div.elemento img {
-    width: 50%;
+    width: 90%;
+    margin: 20px auto;
     border: solid 2px #FF5400;
 }
 
@@ -246,7 +241,7 @@ footer .social ul li {
 }
 
 
-/* FORMULARIO REGISTRAR E INICIAR SESION*/
+
 
 .form-container {
     height: 100%;
@@ -262,11 +257,11 @@ footer .social ul li {
     padding: 2%;
     margin-top: 8%;
     margin-bottom: 8%;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 
     flex-direction: column;
     align-items: center;
-    
+
     border-color: #FFE500;
     border-radius: 20px;
     border-style: solid;
@@ -283,7 +278,7 @@ footer .social ul li {
 
     flex-grow: 0.5;
     background-color: white;
-    
+
 }
 
 .div-form input[type="text"],
@@ -352,7 +347,9 @@ footer .social ul li {
     padding: 30px;
     background-color: #fff;
     border-radius: 10px;
-
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 /* Product Cart */
@@ -463,11 +460,6 @@ section.productosDestacados {
     flex-direction: column;
 }
 
-div.elemento img {
-    height: 250px;
-    width: 100%;
-    border: solid 5px #FF5400;
-}
 
 .elemento .caja {
     display: flex;
@@ -476,7 +468,8 @@ div.elemento img {
 }
 
 
-.enlaces , .spamLogin{
+.enlaces,
+.spamLogin {
     width: 100%;
     padding: 10px 0;
 }
@@ -485,11 +478,194 @@ main {
     height: auto;
 }
 
-/* DESKTOP */
+.product-detail {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.product-img img {
+    margin: 0;
+}
+
+/* Product Cart */
+.main-product-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    position: relative;
+    flex-direction: row;
+}
+
+.product-card:hover .btn-remove {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.product-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 auto;
+}
+
+.product-details {
+    text-align: center;
+    margin-top: 10px;
+    text-align: left;
+    /* Alinea la descripción a la izquierda */
+    margin-top: 0;
+    /* Ajusta el margen superior */
+    margin-left: 10px;
+    /* Agrega margen izquierdo */
+    flex: 1;
+    /* Permite que la descripción ocupe el espacio restante */
+}
+
+.product-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn-remove {
+    display: none;
+}
+
+.product-card:hover .btn-remove:hover {
+    color: #e74c3c;
+}
+
+.summary {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.summary-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.total {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.btn-pay {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-self: stretch;
+    color: #FF5400;
+    border-radius: 20px;
+    margin: 5px 0;
+    width: 100%;
+    cursor: pointer;
+
+
+}
+
+
+.formCreateProduct {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formCreateProduct textarea {
+    resize: none;
+    height: 70px;
+}
+
+.formCreateProduct input[type='file'] {
+    display: none;
+}
+
+.custom-file-upload button {
+    padding: 10px 15px;
+    background-color: #FF5400;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+.custom-file-upload button:hover {
+    background-color: #f8864e;
+}
+
+
+
+.titleFormCreateProduct {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.nameProduct {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.createProduct[type="text"],
+.createProduct[type="number"],
+.textAreaCreateProduct,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btnPrimary {
+    width: 100%;
+    background-color: #FF5400;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form {
+    width: 50%;
+}
+
+
+/****************************************************************************************************************************/
+/****************************************************************************************************************************/
+                                                /* BREAKPOINT 768px  */
+/****************************************************************************************************************************/
+/****************************************************************************************************************************/
+
 
 @media (min-width: 768px) {
     .navbar-logo a img {
-        width: 300px;
+        width: 250px;
     }
 
     .navbar {
@@ -508,7 +684,7 @@ main {
     }
 
     .navbar-links li a {
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 700;
     }
 
@@ -519,6 +695,14 @@ main {
 
     section.productosDestacados {
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .elemento {
+        max-width: 400px;
+        height: auto;
+        min-height: 500px;
     }
 
     footer p {
@@ -549,275 +733,142 @@ main {
         width: 45%;
     }
 
-
-
-}
-
-/*PRODUCTDETAIL*/
-@media (max-width: 767px) {
-    /* main {
-        flex-direction: column;
-        align-items: center;
-    } */
-
-    .product-detail {
-        flex-direction: column;
-        align-items: center;
-        margin: 20px 0;
-    }
-
-    .product-img img {
-        margin: 0;
-    }
-
-    /* Product Cart */
-    .main-product-cart {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
-
-    .product-card {
-        display: flex;
-        flex-direction: column;
-        border: 1px solid #ccc;
-        padding: 10px;
-        margin-bottom: 10px;
-        background-color: white;
-        position: relative;
-        flex-direction: row;
-    }
-
-    .product-card:hover .btn-remove {
-        display: block;
-        position: absolute;
-        top: 5px;
-        right: 5px;
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-
-    .product-image {
-        max-width: 100px;
-        max-height: 100px;
-        margin: 0 auto;
-    }
-
-    .product-details {
+    .titleFormCreateProduct {
         text-align: center;
-        margin-top: 10px;
-        text-align: left;
-        /* Alinea la descripción a la izquierda */
-        margin-top: 0;
-        /* Ajusta el margen superior */
-        margin-left: 10px;
-        /* Agrega margen izquierdo */
-        flex: 1;
-        /* Permite que la descripción ocupe el espacio restante */
+        margin-bottom: 20px;
     }
 
-    .product-actions {
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
-    }
 
-    .btn-remove {
-        display: none;
-    }
-
-    .product-card:hover .btn-remove:hover {
-        color: #e74c3c;
-    }
-
-    .summary {
-        width: 100%;
-        margin-top: 20px;
-        padding: 10px;
-        background-color: white;
-        border: 1px solid #ccc;
-    }
-
-    .summary-title {
-        font-weight: bold;
+    .formCreateProduct {
+        max-width: 500px;
+        margin: auto;
         margin-bottom: 10px;
-    }
-
-    .total {
-        text-align: right;
-        margin-top: 10px;
-    }
-
-    .btn-pay {
-        display: flex;
-        justify-content: center;
         padding: 20px;
-        flex-wrap: wrap;
-        align-self: stretch;
-        color: #FF5400;
-        border-radius: 20px;
-        margin: 5px 0;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nameProduct {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .createProduct[type="text"],
+    .createProduct[type="number"],
+    .textAreaCreateProduct,
+    select {
         width: 100%;
+        padding: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .btnPrimary {
+        width: 100%;
+        background-color: #FF5400;
+        color: white;
+        border: none;
+        padding: 15px;
+        border-radius: 4px;
         cursor: pointer;
+    }
+
+    .titleFormCreateProduct {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .formCreateProduct {
+        max-width: 500px;
+        margin: auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nameProduct {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .createProduct[type="text"],
+    .createProduct[type="number"],
+    .textAreaCreateProduct,
+    select {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .btnPrimary {
+        width: 100%;
+        background-color: #FF5400;
+        color: white;
+        border: none;
+        padding: 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
 
 
+    .form {
+        width: 45%;
     }
 }
 
-/* MAYOR DE 1200px */
+/* MAYOR DE 1280px */
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
+
+    .navbar-logo a img {
+        width: 300px;
+    }
+
+    .navbar-links li a {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
     .form {
         width: 50%;
         margin: 20px auto;
     }
 
-}
-
-/* Estilos para el formulario cargar productos en pantallas de celulares */
-@media (max-width: 767px) {
-    .titleFormCreateProduct {
-        text-align: center;
-        margin-bottom: 20px;
+    .productosDestacados {
+        justify-content: center;
+        gap: 70px;
+        flex-wrap: wrap;
+        padding: 30px 0;
     }
 
-    .formCreateProduct {
-        max-width: 300px;
-        margin: auto;
-        padding: 10px;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    .elemento {
+        width: 500px;
     }
 
-    .nameProduct {
-        display: block;
-        margin-bottom: 5px;
-        font-weight: bold;
+    .productosDestacados div img {
+        width: 50%;
+        margin: 0 auto 30px;
     }
 
-    .createProduct[type="text"],
-    .createProduct[type="number"],
-    .textAreaCreateProduct,
-    select {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 15px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
+    .spamLogin div a {
+        transition: color 200ms ease;
     }
 
-    .btnPrimary {
-        width: 100%;
-        background-color: #FF5400;
-        color: white;
-        border: none;
-        padding: 10px;
-        border-radius: 4px;
-        cursor: pointer;
+    .spamLogin div a:hover {
+        color: #FF5400;
+
     }
 
-          .form {
-              width: 50%;
-          }
-
-
-}
-
-/* Estilos para el formulario cargar productos en pantallas de tablets */
-@media (min-width: 768px) and (max-width: 1023px) {
-
-    .titleFormCreateProduct {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .formCreateProduct {
-        max-width: 500px;
-        margin: auto;
-        padding: 20px;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .nameProduct {
-        display: block;
-        margin-bottom: 10px;
-        font-weight: bold;
-    }
-
-    .createProduct[type="text"],
-    .createProduct[type="number"],
-    .textAreaCreateProduct,
-    select {
-        width: 100%;
-        padding: 15px;
-        margin-bottom: 15px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-    }
-
-    .btnPrimary {
-        width: 100%;
-        background-color: #FF5400;
-        color: white;
-        border: none;
-        padding: 15px;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-  
-  
-    .form {
-            width: 45%;
-        }
-}
-
-/* Estilos para el formulario cargar productos en pantallas de escritorio */
-@media (min-width: 768px) {
-    .titleFormCreateProduct {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-
-    .formCreateProduct {
-        max-width: 500px;
-        margin: auto;
-        margin-bottom: 10px;
-        padding: 20px;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .nameProduct {
-        display: block;
-        margin-bottom: 10px;
-        font-weight: bold;
-    }
-
-    .createProduct[type="text"],
-    .createProduct[type="number"],
-    .textAreaCreateProduct,
-    select {
-        width: 100%;
-        padding: 15px;
-        margin-bottom: 15px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-    }
-
-    .btnPrimary {
-        width: 100%;
-        background-color: #FF5400;
-        color: white;
-        border: none;
-        padding: 15px;
-        border-radius: 4px;
-        cursor: pointer;
+    .global-footer {
+        padding: 40px;
+        flex-direction: row;
+        font-size: 1.2rem;
     }
 }
