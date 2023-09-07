@@ -11,8 +11,8 @@ gulp.task('serve', function () {
         proxy: "http://localhost:3000" // URL de tu servidor Node.js
     });
 
-    gulp.watch('src/views/*.html').on('change', function () {
-        gulp.src('src/views/*.html')
+    gulp.watch('src/views/*.ejs').on('change', function () {
+        gulp.src('src/views/*.ejs')
             .pipe(browserSync.stream());
     }); // Recarga en cambios de archivos HTML
     gulp.watch('public/css/*.css').on('change', function () {
