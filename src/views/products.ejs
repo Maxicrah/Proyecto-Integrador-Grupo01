@@ -44,8 +44,8 @@
                             <div class="descripcion"><%= producto.description %></div>
                             <div class="color">Color: <%= producto.color || 'No especificado' %></div>
                             <div class="precio">$<%= producto.price %></div>
-                            <a href="/productDetail" class="btnPrimary">Añadir al carrito</a>
                         </div>
+                        <a href="/productDetail/<%= producto.id %>" class="btnPrimary">Añadir al carrito</a>
                     </div>
                 <% }); %>
             </section>

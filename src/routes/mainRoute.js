@@ -4,7 +4,7 @@ const controller = require('../controller/mainController')
 
 router.get('', controller.home)
 
-router.get('/productDetail', controller.productDetail)
+router.get('/productDetail/:id', controller.productDetail)
 
 router.get('/productCart', controller.cartDetail)
 

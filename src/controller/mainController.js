@@ -1,12 +1,18 @@
 const productController = require("./productsController") //importamos controlador de productos
+const productsService = require('../services/product.services')
+
+const products = productsService.getProducts()
 
 const mainController = {
     home: (req, res) => {
-        return res.render('home')
+        const mostVisited = products.filter(p => p.category === 'Más visitado')
+        return res.render('home', { mostVisited })
     },
 
     productDetail: (req, res) => {
-        return res.render('productDetail')
+        const { id } = req.params
+        const producto = products.find(p => p.id === id)
+        return res.render('productDetail', {producto})
     },
 
     cartDetail: (req, res) => {

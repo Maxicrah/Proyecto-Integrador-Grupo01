@@ -36,36 +36,18 @@
             </section>
 
             <section id="sport" class="productosDestacados">
-
-                <div class="elemento">
-                    <img src="/images/barra.jpg" alt="barra" />
-                    <div class="caja">
-                        <div class="nombre"><b>Barra Cromada 2,20 m 30 cm</b></div>
-                        <div class="precio">$50.000</div>
-                        <div class="cuotas">6 cuotas sin interes</div>
-                        <a href="/productDetail" class="btnPrimary">Añadir al carrito</a>
+                <% mostVisited.forEach(producto => { %>
+                    <div class="elemento">
+                        <img src="<%= producto.image %>" alt="<%= producto.name %>" />
+                        <div class="caja">
+                            <div class="nombre"><b><%= producto.name %></b></div>
+                            <div class="descripcion"><%= producto.description %></div>
+                            <div class="color">Color: <%= producto.color || 'No especificado' %></div>
+                            <div class="precio">$<%= producto.price %></div>
+                        </div>
+                        <a href="/productDetail/<%= producto.id %>" class="btnPrimary">Añadir al carrito</a>
                     </div>
-                </div>
-
-                <div class="elemento">
-                    <img src="/images/suplemento-dietario.webp" alt="suplemento" />
-                    <div class="caja">
-                        <div class="nombre"><b>Whey proteina x 930g</b></div>
-                        <div class="precio">$15.000</div>
-                        <div class="cuotas">3 cuotas sin interes</div>
-                        <a href="/productDetail" class="btnPrimary">Añadir al carrito</a>
-                    </div>
-                </div>
-
-                <div class="elemento">
-                    <img src="/images/grip.webp" alt="grip" />
-                    <div class="caja">
-                        <div class="nombre"><b>Nike grip push up</b></div>
-                        <div class="precio">$18.000</div>
-                        <div class="cuotas">6 cuotas sin interes</div>
-                        <a href="/productDetail" class="btnPrimary">Añadir al carrito</a>
-                    </div>
-                </div>
+                <% }); %>
             </section>
         </main>
 

@@ -654,6 +654,9 @@ select {
 
 
 @media (min-width: 768px) {
+    .navbar .fas {
+        display: none;
+    }
     .navbar-logo a img {
         width: 250px;
     }
@@ -770,6 +773,11 @@ select {
         text-align: center;
         margin-bottom: 20px;
     }
+    
+    .mainCreateProduct{
+        
+        margin-bottom: 50px;
+    }
 
     .formCreateProduct {
         max-width: 500px;
@@ -815,6 +823,10 @@ select {
 
 @media (min-width: 1280px) {
 
+    .navbar .fas {
+        display: none;
+    }
+
     .navbar-logo a img {
         width: 300px;
     }
@@ -854,6 +866,7 @@ select {
 
     }
 
+    
     .global-footer {
         padding: 40px;
         flex-direction: row;
