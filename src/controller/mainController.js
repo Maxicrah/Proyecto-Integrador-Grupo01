@@ -25,9 +25,16 @@ const mainController = {
         return res.render('formCreateProduct')
     },
 
+    
+
     products: (req, res) => {
         const productos = productController.obtenerProductos();
-        console.log(productos);
+        //const productId = req.query.id; // Obtener el ID del producto de la URL
+
+        // Buscar el producto correspondiente según el ID
+        //const productoSeleccionado = productos.find((producto) => producto.id === productId);
+
+        //console.log(productos);
         return res.render("products", { productos })
     }
 }
