@@ -8,9 +8,9 @@ router.get('', controller.home)
 
 router.get('/productCart', controller.cartDetail)
 
-router.get('/register', controller.register)
+// router.get('/register', controller.viewRegister)
 
-router.get('/login', controller.login)
+// router.get('/login', controller.login)
 
 
 

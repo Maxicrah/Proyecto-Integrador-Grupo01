@@ -4,7 +4,7 @@ let productos = []; //Aqui se almacenaran los productos
 
 function cargarProductos(){
     try{
-        const filePath = path.join(__dirname, '..', 'data', 'products.json');
+        const filePath = path.join(__dirname, '..', 'database', 'products.json');
         const data = fs.readFileSync(filePath,"utf-8");
         productos = JSON.parse(data);
         //probando si cargan los productos pueden borrarlo si quieren

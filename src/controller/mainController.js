@@ -1,6 +1,9 @@
 const productController = require("./productsController") //importamos controlador de productos
 const productsService = require('../services/product.services')
 
+
+
+
 const products = productsService.getProducts()
 
 const mainController = {
@@ -12,17 +15,13 @@ const mainController = {
     productDetail: (req, res) => {
         const { id } = req.params
         const producto = products.find(p => p.id === id)
-        return res.render('productDetail', {producto})
+        return res.render('productDetail', { producto })
     },
 
     cartDetail: (req, res) => {
         return res.render('productCart')
     },
 
-    register: (req, res) => {
-        
-        return res.render('register')
-    },
 
     login: (req, res) => {
         return res.render('login')

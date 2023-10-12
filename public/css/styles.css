@@ -5,11 +5,8 @@
     --primary-orange-hovered: #f78d59;
     --primary-yellow: #FFE500;
     --primary-white: #ffffff;
-
+    --errors-bg-primary: #ff9d9d9a;
 }
-
-/********** HEADER *******/
-/*  MOBILE  */
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +14,9 @@
     font-family: 'Roboto', sans-serif;
 
 }
+
+/********** HEADER *******/
+/*  MOBILE  */
 
 a {
     text-decoration: none;
@@ -85,6 +85,13 @@ a {
 
 /*estilos de la pagina principal*/
 
+
+.msg-error{
+    background-color: var(--errors-bg-primary);
+    margin: 4px 0;
+    padding: 4px;
+    color: red;
+}
 
 section.imagenes {
     display: flex;

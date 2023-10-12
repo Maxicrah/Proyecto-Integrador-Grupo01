@@ -2,7 +2,7 @@ const path = require('node:path')
 const {readFileSync, writeFileSync} = require('node:fs');
 
 
-const file = path.join(__dirname, '..', 'data', 'products.json')
+const file = path.join(__dirname, '..', 'database', 'products.json')
 
 module.exports = {
     getProducts: () => JSON.parse(readFileSync(file, 'utf-8')),
