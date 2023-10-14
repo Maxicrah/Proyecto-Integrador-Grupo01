@@ -14,8 +14,6 @@ router.get('/login', controller.login)
 
 router.get('/formCreateProduct', controller.formCreateProduct)
 
-router.get('/formEditProduct', controller.formEditProduct)
- 
 router.get('/products', controller.products)
 
 

@@ -31,10 +31,6 @@ const mainController = {
         return res.render('formCreateProduct')
     },
 
-    formEditProduct: (req, res) => {
-        return res.render('formEditProduct')
-    },
-
     products: (req, res) => {
         const productos = productController.obtenerProductos();
         console.log(productos);

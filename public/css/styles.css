@@ -645,29 +645,6 @@ select {
     width: 50%;
 }
 
-.formEditProduct {
-    max-width: 300px;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: var(--primary-white);
-    border-radius: 10px;
-    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
-}
-
-.formEditProduct textarea {
-    resize: none;
-    height: 70px;
-}
-
-.formEditProduct input[type='file'] {
-    display: none;
-}
-
-
-.titleFormEditProduct {
-    text-align: center;
-    margin: 20px 0;
-}
 
 /****************************************************************************************************************************/
 /****************************************************************************************************************************/
